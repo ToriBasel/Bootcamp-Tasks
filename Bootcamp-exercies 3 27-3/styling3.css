@@ -1,0 +1,250 @@
+body{
+    background: rgb(165, 165, 228);
+}
+#first{
+    font-size: xx-large;
+    background: lightgreen;
+    color:white;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin: 20px;
+}
+#first:hover{
+    background: rgb(127, 173, 127);
+}
+
+#second{
+    font-size: x-large;
+    background: red;
+    color:white;
+    text-decoration: none;
+    padding:10px 20px;
+    margin:20px;
+}
+#second:hover{
+    background: rgb(233, 88, 88);
+}
+
+#third{
+    font-size: large;
+    background: darkcyan;
+    color:white;
+    text-decoration: none;
+    padding:10px 20px;
+    margin:20px
+}
+#third:hover{
+    background: cyan;
+}
+/* --------------------------------------------- */
+#first-round{
+    font-size: xx-large;
+    background: rgb(255, 174, 0);
+    color:white;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin: 20px;
+    border-radius: 10px;
+}
+#first-round:hover{
+    background: rgb(241, 200, 116);
+}
+
+#second-round{
+    font-size: x-large;
+    background: rgb(238, 255, 0);
+    color:white;
+    text-decoration: none;
+    padding:10px 20px;
+    margin:20px;
+    border-radius: 10px;
+}
+#second-round:hover{
+    background: rgb(223, 233, 88);
+}
+
+#third-round{
+    font-size: large;
+    background: rgb(21, 80, 206);
+    color:white;
+    text-decoration: none;
+    padding:10px 20px;
+    margin:20px;
+    border-radius: 10px;
+    
+}
+#third-round:hover{
+    background: rgb(1, 119, 119);
+}
+
+#fourth{
+    border-style: solid;
+    font-size: xx-large;
+    border-color: red;
+    color:white;
+    text-decoration: none;
+    padding:10px 40px;
+    margin:20px;
+}
+#fourth:hover{
+    background-color: rgb(233, 78, 31);
+    border-color:rgb(233, 78, 31) ;
+}
+#fifth{
+        border-style: solid;
+        font-size: x-large;
+        border-color: rgb(20, 212, 61);
+        color:white;
+        text-decoration: none;
+        padding:10px 20px;
+        margin:20px;
+}
+#fifth:hover{
+    border-color: green;
+    background-color: green;
+}
+
+#sixth{
+    border-style: solid;
+    font-size: large;
+    border-color: rgb(2, 119, 252);
+    color:white;
+    text-decoration: none;
+    padding:10px 20px;
+    margin:20px;
+}
+#sixth:hover{
+    background-color: rgb(2, 119, 252);
+}
+
+#sixth-round{
+    border-style: solid;
+    font-size: large;
+    border-color: rgb(255, 17, 148);
+    color:white;
+    text-decoration: none;
+    padding:10px 20px;
+    margin:20px;
+    border-radius: 10px;
+}
+#sixth-round:hover{
+    background-color: rgb(255, 17, 148);
+}
+
+#fifth-round{
+    border-style: solid;
+    font-size: x-large;
+    border-color: rgb(0, 228, 190);
+    color:white;
+    text-decoration: none;
+    padding:10px 20px;
+    margin:20px;
+    border-radius: 10px;
+}
+#fifth-round:hover{
+    background-color:rgb(0, 228, 190);
+}
+
+#fourth-round{
+    border-style: solid;
+    font-size: xx-large;
+    border-color: rgb(138, 24, 214);
+    color:white;
+    text-decoration: none;
+    padding:10px 40px;
+    margin:20px;
+    border-radius: 10px;
+}
+#fourth-round:hover{
+    background-color: rgb(138, 24, 214);
+}
+
+/* ---------------------------------
+9.1 css */
+#outer {
+    width: 100px;
+    height: 100px;
+    background: darkcyan;
+    margin: 50px;
+    position: relative; 
+    /* inner didnt recognize outer as its parent div
+    so absolute was working with body positioning not
+    outer to fix this we add relative position
+    to outer so inner can work and relate to */
+    }
+    #inner {
+    width: 50px;
+    height: 50px;
+    background: lightgreen;
+    position: absolute;
+    top: 10px;
+    }
+
+/* 9.2 css */
+#outer2 {
+    width: 100px;
+    height: 100px;
+    background: darkcyan;
+    margin: 50px;
+    position: relative;
+    }
+    #inner2 {
+    width: 50px;
+    height: 50px;
+    background: lightgreen;
+    position: absolute;
+    top: 20px;
+    }
+    #font{
+        position: absolute;
+        gap:10px;
+        font-size: 15px;
+    }
+
+/* 9.3 css */
+body{
+    background-color: white;
+    /* position: relative; */
+}
+#box1{
+    border: 2px royalblue solid;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    background-color: white;
+}
+
+#box2{
+    border: 2px yellowgreen solid;
+    width: 300px;
+    height:300px;
+    position: absolute;
+    top: 200px;
+    right: 600px;
+    z-index: 12;
+    background-color: white;
+
+}
+
+#box3{
+    border: 2px coral solid;
+    background-color: white;
+    width: 150px;
+    height: 400px;
+    position: absolute;
+    top: 30px;
+    right:500px;
+    z-index: 1;
+
+}
+
+#box4{
+    border: 2px indigo solid;
+    background-color: white;
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    top: 60px;
+    right:450px;
+    z-index: 0;
+}

@@ -1,0 +1,44 @@
+/* 6.1 css properties style */
+#first {
+    border-color: red;
+    font-size:x-large;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+#second{
+    font-style: italic;
+    font-weight: bold;
+}
+
+#third{
+    background-color: black;
+    color:white;
+    border-bottom:gray solid 5px;
+    font-family: monospace;
+}
+
+#img{
+background-image: url('./img/eiffel-tower.jpg');
+height: 300px;
+width: 200px;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+
+#container{
+    background: aqua;
+    width: 200px;
+    height: 400px;
+    margin:auto;
+    margin-top: 100px;
+}
+
+#text{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+
+}
