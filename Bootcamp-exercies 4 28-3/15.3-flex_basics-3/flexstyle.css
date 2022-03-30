@@ -1,0 +1,29 @@
+#container{
+    display: flex;
+    background: #333;
+    width: 300px;
+    height: 300px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#box1{
+    background:lightcyan;
+    border:2px solid rebeccapurple;
+    width: 50px;
+    height: 50px;
+}
+
+#box2{
+   background: lawngreen; 
+   border:2px solid rebeccapurple;
+   width: 50px;
+   height: 50px;
+}
+
+#box3{
+    background: coral;
+    border:2px solid rebeccapurple;
+    width: 50px;
+    height: 50px;
+}
