@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        #outter{
+            background: royalblue;
+            width: 400px;
+            height: 400px;
+            position: inherit;
+            overflow: auto;
+            animation-name: ani;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+
+        #outter::after{
+            content:'';
+            background: yellow;
+            width: 200px;
+            height: 400px;
+            display: flex;
+            position: a;
+            animation-name:animate;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+            
+
+
+         @keyframes ani{
+            to{
+                background:royalblue;
+                width: 200px;
+                transform : translateX(200px)
+            }
+        }
+
+        @keyframes animate {
+           to  
+           {
+               background:red;
+           }
+        }
+
+
+    </style>
+
+
+
+</head>
+
+<body>
+    <div id="outter">
+    </div>
+</body>
+</html>

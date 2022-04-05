@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+
+    <style>
+        body{
+            margin:0;
+            padding:0;
+        }
+
+        
+        #ctr{
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #bbbaba;
+            position: relative;
+            height: 100vh;
+            z-index: 1;
+        }
+
+        #box1{
+            background: royalblue;
+            position: relative;
+            width: 200px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+            font-size:xx-large;
+         } 
+        #box1:after{
+            transition: all 2s ;
+            content: "HAAALOO!!";
+            align-content: center;
+            background-color: bisque;
+            position: absolute;
+            top: -100px;
+            left: 0;
+            right:0;
+            height: 100%;
+            justify-content: center;
+        }
+
+        #box1:hover:after{
+            transform: translateY(100px);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="ctr">
+   
+    <div id="box1"><div id="box2">Hello!!</div></div>
+</div>
+</body>
+</html>
